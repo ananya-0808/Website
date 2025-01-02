@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="notes.css">
+  </head>
+  <body>
+    <div class="img">
+      <div>
+      </div>
+      <img src="light.png" class="light" id="light">
+      <img src="images1/ufo.png" class="ufo-move" id="ufo">
+    </div>
+    <div class="notebook">
+        <h1>Notes</h1>
+        <input type="date" id="datePicker" class="date-picker">
+        <textarea id="note" placeholder="Start writing here..."></textarea>
+    </div>
+    <div class="container">
+      <textarea id="text-box-1" placeholder="Type something..."></textarea>
+      <textarea id="text-box-2" placeholder="Type something..."></textarea>
+      <textarea id="text-box-3" placeholder="Type something..."></textarea>
+    </div>
+    <div class="music-player">
+      <img id="album-art" src="images/music-1.gif" alt="Album Art">
+      <audio id="audio"></audio>
+      <div class="controls">
+          <span id="song-name">Song Name</span>
+          <button id="prev" class="material-icons">skip_previous</button>
+          <button id="play-pause" class="material-icons">pause</button>
+          <button id="next" class="material-icons">skip_next</button>
+          <input id="seek-bar" type="range" value="0" min="0" step="1">
+          <span id="current-time"></span>
+          <span>/</span>
+          <span id="duration"></span>
+      </div>
+    </div>
+    <script src="notes.js"></script>
+    <script src="test.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+:root{
+  --green: rgb(47, 233, 171);
+  --violet: rgb(140, 140, 246);
+  --lightblack: rgba(54,61,71,0.9);
+  --white: #ffffff;
+  --darkwhite: #cecaca;
+  --pinkshadow: #ffcbdd;
+  --lightbshadow: rgba(85, 85, 85, 0.4);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(-45deg, var(--green), var(--violet));
+}
+
+.container {
+  background:var(--lightblack);
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color:var(--darkwhite);
+  font-family: Quicksand;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+.container button {
+  padding: 10px 20px;
+  border: none;
+  background:linear-gradient(-45deg, var(--green), var(--violet));
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top:10px;
+  font-family: Quicksand;
+}
+
+button:hover {
+  background: white;
+  color:var(--lightblack);
+}
+
+#results {
+  margin-top: 20px;
+}
+
+#results a {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  background-color:var(--lightblack);
+  color: var(--darkwhite);
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: Quicksand;
+}
+
+#results a:hover {
+  background-color: rgb(49, 55, 64);
+  color:var(--darkwhite);
+}
+
+#subject{
+  background-color:var(--lightblack);
+  color:var(--darkwhite);
+  font-family: Quicksand;
+}
+
+option{
+  color:var(--darkwhite);
+}
+
+option:hover{
+  background-color:rgb(49, 55, 64);
+}
