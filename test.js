@@ -9,15 +9,15 @@ const songNameDisplay = document.getElementById('song-name');
 const albumArt = document.getElementById('album-art');
 
 const songs = [
-    { src: 'songs/music-1.mp4', name: 'tranquility', art:'music-1.gif' },
-    { src: 'songs/music-2.mp4', name: 'breathe' , art:'music-2.gif'},
-    { src: 'songs/music-3.mp4', name: 'loving you', art:'music-3.gif' },
-    { src: 'songs/music-4.mp4', name: 'In the Monastery' , art:'music-4.gif'},
-    { src: 'songs/music-5.mp4', name: 'Claire De Lune' , art:'music-5.gif'},
-    { src: 'songs/music-6.mp4', name: 'Gymnopédie No.1', art:'music-6.gif' },
-    { src: 'songs/music-7.mp4', name: 'Imagine' , art:'music-7.gif'},
-    { src: 'songs/music-8.mp4', name: 'Bread' , art:'music-8.gif'},
-    { src: 'songs/music-9.mp4', name: 'Bliss' , art:'music-9.gif'}
+    { src: 'music-1.mp4', name: 'tranquility', art:'music-1.gif' },
+    { src: 'music-2.mp4', name: 'breathe' , art:'music-2.gif'},
+    { src: 'music-3.mp4', name: 'loving you', art:'music-3.gif' },
+    { src: 'music-4.mp4', name: 'In the Monastery' , art:'music-4.gif'},
+    { src: 'music-5.mp4', name: 'Claire De Lune' , art:'music-5.gif'},
+    { src: 'music-6.mp4', name: 'Gymnopédie No.1', art:'music-6.gif' },
+    { src: 'music-7.mp4', name: 'Imagine' , art:'music-7.gif'},
+    { src: 'music-8.mp4', name: 'Bread' , art:'music-8.gif'},
+    { src: 'music-9.mp4', name: 'Bliss' , art:'music-9.gif'}
     
   ];
 
