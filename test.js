@@ -122,3 +122,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Attach click event to the animated object
     animatedlight.addEventListener('click', tAnimation);
 });
+
+audio.addEventListener('ended', () => {
+    currentSongIndex = (currentSongIndex + 1) % songs.length;
+    loadSong(currentSongIndex);
+});
