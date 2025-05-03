@@ -349,6 +349,7 @@ span {
   bottom:77%;
   transition: transform 0.5s;
   z-index:2;
+  pointer: hover;
 }
 
 .mountain{
@@ -375,6 +376,7 @@ span {
   margin-left:67.4%;
   z-index:1;
   opacity:0.6;
+  pointer:hover;
 }
 
 @keyframes flickerAnimation {
