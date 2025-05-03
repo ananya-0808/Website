@@ -27,7 +27,6 @@ function loadSong(index) {
     audio.src = songs[index].src;
     songNameDisplay.textContent = songs[index].name;
     albumArt.src = songs[index].art;
-    audio.play();
     playPauseButton.textContent = 'pause';
 }
 
