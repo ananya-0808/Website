@@ -273,7 +273,7 @@ function renderTodos(todos) {
     // Create the HTML structure for the todo item
     li.innerHTML = `
       <input type="checkbox" class="checkbox" ${checked}> ${item.name}
-      <img src="images1/delete.png" class="delete-button"> <!-- Delete button -->
+      <img src="delete.png" class="delete-button"> <!-- Delete button -->
     `;
     todoItemsList.append(li); // Append the new list item to the todo list
   });
@@ -333,8 +333,6 @@ todoItemsList.addEventListener('click', function(event) {
     deleteTodo(todoId); // Delete the todo item
   }
 });
-
-
 
 
 
